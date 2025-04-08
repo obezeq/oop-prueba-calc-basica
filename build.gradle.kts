@@ -1,5 +1,7 @@
 plugins {
     kotlin("jvm") version "2.0.20"
+    application
+    id("com.github.com.johnrengelman.shadow") version "0.1.1"
 }
 
 group = "org.example"
